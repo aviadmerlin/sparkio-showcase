@@ -101,11 +101,22 @@ The analytics page is a Server Component that runs four scoped Supabase queries 
 - Monthly revenue and event-count trends over the last 12 months
 
 ## Screenshots
-_Coming soon — screenshots of the dashboard, lead pipeline, and quote flow will go here._
 
-| Dashboard | Lead pipeline | Quote & signature |
-|---|---|---|
-| _placeholder_ | _placeholder_ | _placeholder_ |
+**Analytics dashboard**
+![Analytics dashboard](screenshots/01-analytics-dashboard.png)
+
+**Lead pipeline (Kanban)**
+![Lead pipeline Kanban board](screenshots/02-leads-pipeline-kanban.png)
+
+**Quote builder → signed**
+| Builder | Signed & approved |
+|---|---|
+| ![Quote builder](screenshots/03-quote-builder.png) | ![Signed quote](screenshots/04-quote-signed.png) |
+
+**Event page — equipment & tasks**
+| Equipment | Checklist |
+|---|---|
+| ![Event equipment tab](screenshots/05-event-equipment.png) | ![Event checklist tab](screenshots/06-event-tasks.png) |
 
 ## What I learned
 - Designing multi-tenant Row-Level Security from the ground up, and enforcing tenant isolation at the database layer instead of trusting application code to get it right every time.

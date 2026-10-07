@@ -2,6 +2,11 @@
 
 A CRM built for small event-industry businesses — catering, bar service, equipment rental — to manage the full pipeline from first lead to delivered event. It replaces WhatsApp threads and spreadsheets with one place to track leads, send quotes, collect signatures, and run event logistics.
 
+## Demo
+Moving a lead through the pipeline — drag-and-drop between stages, with the board updating live:
+
+![Moving a lead through the pipeline](screenshots/lead-pipeline-demo.gif)
+
 ## Key features
 - Lead pipeline (Kanban) with sources (WhatsApp, Instagram, manual entry)
 - Quote builder with PDF export and version history
